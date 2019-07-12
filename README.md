@@ -47,7 +47,7 @@ Please keep in mind that before you export, you should resize and orient the sab
 
 ![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/Template.png)
 
-export the 3 files seperately, preferably as a .obj file, but if you’re like me and use fusion360 or other program that can’t export as .obj, you’ll have to convert the mesh format to .obj using http://www.meshconvert.com/
+export the 3 files separately, preferably as a .obj file, but if you’re like me and use fusion360 or other program that can’t export as .obj, you’ll have to convert the mesh format to .obj using http://www.meshconvert.com/
 
 
 Getting them into a mod:
@@ -61,7 +61,7 @@ open the unity project by double clicking on sabers.unity
 
 ![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles1.png)
 
-Move in the seperate .obj files
+Move in the separate .obj files
 
 ![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles2.png)
 
