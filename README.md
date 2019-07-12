@@ -1,6 +1,6 @@
 ### @RedBrumbler#6295 ‘s (or u/RedBrumbler) and @Rugtveit#1337 ‘s Guide to making custom sabers for the BeatOn Asset replacement mod
 
-#### DISCLAIMER: Making custom sabers may require you to reset your assets multiple times, so losing all your song data is not uncommon, we are not responsible for you needing to reset your assets so don't complain about it to us
+#### DISCLAIMER: Making custom sabers / getting custom sabers to work may require you to reset your assets (thus making you sort your songs again) multiple times, so losing all your song data is not uncommon, we are not responsible for you needing to reset your assets so don't complain about it to us
 
 required programs/files for making a saber:
 ------
