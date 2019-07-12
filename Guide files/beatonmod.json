@@ -1,0 +1,76 @@
+﻿{
+  "id": "ModID",
+  "name": "Mod name",
+  "author": "YourName",
+  "description": ["Mod Description"],
+  "gameVersion": "1.1.0",
+  "version": "1.0.0.0",
+  "platform": "Quest",
+  "category": "Saber",
+  "components": [
+    {
+      "Type": "AssetsMod",
+      "InstallAction": {
+        "PreloadFiles": ["sharedassets12.assets"],
+		"Actions": [
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 1,
+				"Locator": { 
+					"TypeIs": "Mesh",
+					"NameIs": "SaberBlade"
+					},
+				"FromDataFile": "SaberBlade.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 1,
+				"Locator": { 
+					"TypeIs": "Mesh",
+					"NameIs": "SaberGlowingEdges"
+					},
+				"FromDataFile": "SaberGlowingEdges.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 1,
+				"Locator": { 
+					"TypeIs": "Mesh",
+					"NameIs": "SaberHandle"
+					},
+				"FromDataFile": "SaberHandle.dat"
+			}
+		]
+      },
+	  "UninstallAction": {
+        "PreloadFiles": ["sharedassets12.assets"],
+		"Actions": [
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 1,
+				"Locator": { 
+					"TypeIs": "Mesh",
+					"NameIs": "SaberBlade"
+					}				
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 2,
+				"Locator": { 
+					"TypeIs": "Mesh",
+					"NameIs": "SaberGlowingEdges"
+					}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 3,
+				"Locator": { 
+					"TypeIs": "Mesh",
+					"NameIs": "SaberHandle"
+					}
+			}
+		]
+      }
+    }
+  ]
+}
