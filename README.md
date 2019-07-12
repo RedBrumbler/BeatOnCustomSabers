@@ -122,5 +122,7 @@ Now you should be ready to upload to BeatOn!
 If it doesn’t work you might have to reset your assets (will lose all loaded songs, be careful!) but pressing reload songs will load back most of them, if it says invalid mod file you might miss some files or made an incomplete json
 
 
+We also support adding your sabers to the repository here!
+make a pull request within the branch "SaberSubmit" with your sabers inside a folder in the sabers folder and we'll have a look at it!
 
 
