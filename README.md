@@ -3,7 +3,7 @@
 
 required programs/files for making a saber:
 ------
-- Unity version 2018.3.10f1
+- Unity version [2018.3.10f1](https://unity3d.com/get-unity/download?thank-you=update&download_nid=61246&os=Win)
 - The unity project from [this tutorial](https://bs.assistant.moe/Sabers/)
 
 ![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/unityprojectDL.png)
