@@ -131,7 +131,8 @@ If it doesn’t work you might have to reset your assets (will lose all loaded s
 
 
 We also support adding your sabers to the repository here!
-make a pull request within the branch "SaberSubmit" with your sabers inside a folder in the sabers folder and we'll have a look at it!
+make a pull request within the branch "SaberSubmit" with your sabers inside a folder in the sabers folder and we'll have a look at it! (so folder structure should be: BeatOnCustomSabers\Sabers\yourname\yourmod)
+
 We recommend using the [github desktop program](https://desktop.github.com/) for this
 
 
