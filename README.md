@@ -2,6 +2,13 @@
 
 #### DISCLAIMER: Making custom sabers / getting custom sabers to work may require you to reset your assets (thus making you sort your songs again) multiple times, so losing all your song data is not uncommon, we are not responsible for you needing to reset your assets so don't complain about it to us
 
+Useful links:
+------
+- [BeatOn by Emulamer](https://github.com/emulamer/BeatOn/releases)
+- [Sidequest Discord](https://discord.me/sidequestvr)
+- [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators)
+- [Blender](https://www.blender.org/)
+
 required programs/files for making a saber:
 ------
 - Unity version [2018.3.10f1](https://unity3d.com/get-unity/download?thank-you=update&download_nid=61246&os=Win)
