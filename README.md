@@ -8,7 +8,7 @@ Useful links:
 - [Sidequest Discord](https://discord.me/sidequestvr)
 - [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators)
 - [Blender](https://www.blender.org/)
-
+- Also check out the Sabers folder in this github! there's a few sabers in there already!
 required programs/files for making a saber:
 ------
 - Unity version [2018.3.10f1](https://unity3d.com/get-unity/download?thank-you=update&download_nid=61246&os=Win)
