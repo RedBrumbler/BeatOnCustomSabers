@@ -11,10 +11,11 @@ Useful links:
 - Also check out the Sabers folder in this github! there's a few sabers in there already! (to add to it yourself scroll down to the bottom of this readme)
 required programs/files for making a saber:
 ------
-- Unity version [2018.3.10f1](https://unity3d.com/get-unity/download?thank-you=update&download_nid=61246&os=Win)
+- Unity version [2018.3.10f1](https://unity3d.com/get-unity/download?thank-you=update&download_nid=61246&os=Win) or higher
 - The unity project from [this tutorial](https://bs.assistant.moe/Sabers/)
 
 ![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/unityprojectDL.png)
+
 - Model program of your choice (RedBrumbler prefers fusion360)
 - UnityAssetBundleExtractor [(UABE)](https://mega.nz/#!eRY3gAAI!wEB5cTEAxtEEbe7jIKroatUxwYtwmcUnCjAzoMBEyCs)
 NOT our program, be careful when downloading programs from the internet!
@@ -97,7 +98,9 @@ Inside the build folder should be a folder called customSabers_data, go into tha
 ![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles4.png)
 
 You’ll get this screen, and your models will have a name, to know which is which you can look at the sizes, for example the size of the handle was the largest, so we know that the largest file here is the handle mesh. looking at the sizes before you make the raw files and after can help you identify them. To get the raw unity mesh data you click on export Raw and you’ll have to save the file as a name.
-name the blade mesh SaberBlade.dat, name the handle mesh SaberHandle.dat and name the accents SaberGlowingEdges.dat
+If you've worked from a .xmf file, your models might have names which makes it easier to identify
+
+name the mesh you want to have the blade material SaberBlade.dat, name the mesh you want to have the Handle material SaberHandle.dat and name the mesh you want to have the Glowing material SaberGlowingEdges.dat
 
 ![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles5.png)
 
@@ -108,24 +111,55 @@ I put them in here, with the beatonmod.json
 
 Now to make the actual mod, if you haven’t already download the [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guide%20files/Guide%20files.zip) and open the beatonmod.json in a text editor (would not recommend regular notepad, something like notepad++ works way better)
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles7.png)
+#### A new update to Beaton (0.9.8) Brought us the possibility of adding cover images to our mods, it doesn't matter too much what the image is (make it recognizable! for sabers we reccomend using a picture of the saber, look at RedBrumbler's saber pictures/mod Cover images for a way to do this!) just make sure the image is 150 (w) x 200 (h) and is named "Cover.png" that way it will show up in BeatOn
 
 at the top of the json you’ll see this info, now all you have to do is input your own info in there and name things correctly.
 We recommend to only change the id, name, author, description and version numbers
 
+```
+"id": "ModID",
+  "name": "Mod name",
+  "author": "YourName",
+  "description": ["Mod Description"],
+  "gameVersion": "1.1.0",
+  "version": "1.0.0.0",
+  "platform": "Quest",
+  "category": "Saber",
+  "coverImageFilename": "Cover.png",
+  "components":
+```
+
 for my sword I changed it to this:
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles8.png)
+```
+"id": "ConnieSwordV1", --Unique mod ID, this makes sure that when you release an update it won't install the mod again, but overwrite the old one
+  "name": "Connie's Sword V1", --The name displayed within BeatOn
+  "author": "RedBrumbler", --Your name here, so people know who made that saber
+  "description": ["Connie's sword Bismuth made for her from the Cartoon Network Show 'Steven Universe'"], --description, can be used to credit others whose work you worked off of, or a great place to make meta jokes
+  "gameVersion": "1.1.0",
+  "version": "1.0.1.0", --Version of the mod, we reccommend to bump the last number up for small changes, but for larger redesigns use the second number
+  "platform": "Quest",
+  "category": "Saber",
+  "coverImageFilename": "Cover.png", --it's easier to just name the cover image to Cover.png than to keep editing this one IMO -Redbrumbler
+  "components":
+``` 
+
+
 
 Now that you have all your files ready you can bundle them into a zip file (winrar or 7zip work fine for this) make sure your zip file contains:
 - beatonmod.json
 - SaberBlade.dat
 - SaberHandle.dat
 - SaberGlowingEdges.dat
+- Cover.png
+
+#### A .rar file won't work! it has to be .zip!
 
 Now you should be ready to upload to BeatOn!
 
 ![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles9.png)
+
+if you get "invalid mod", you likely are missing an argument in the info part we just listed, make sure all of it is there!
 
 If it doesn’t work you might have to reset your assets (will lose all loaded songs, be careful!) but pressing reload songs will load back most of them, if it says invalid mod file you might miss some files or made an incomplete json
 
