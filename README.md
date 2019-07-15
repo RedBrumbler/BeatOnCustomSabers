@@ -163,6 +163,7 @@ if you get "invalid mod", you likely are missing an argument in the info part we
 
 If it doesn’t work you might have to reset your assets (will lose all loaded songs, be careful!) but pressing reload songs will load back most of them, if it says invalid mod file you might miss some files or made an incomplete json
 
+If sabers (even confirmed working ones) don't show up at all then you might even need to completely reinstall beat saber
 
 We also support adding your sabers to the repository here!
 (explanation adapted from @Yuuki#0802 from BSMG, and by that we mean mostly blatantly copied)
