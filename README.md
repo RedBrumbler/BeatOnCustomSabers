@@ -131,8 +131,20 @@ If it doesn’t work you might have to reset your assets (will lose all loaded s
 
 
 We also support adding your sabers to the repository here!
-make a pull request within the branch "SaberSubmit" with your sabers inside a folder in the sabers folder and we'll have a look at it! (so folder structure should be: BeatOnCustomSabers\Sabers\yourname\yourmod)
+(explanation adapted from @Yuuki#0802 from BSMG, and by that we mean mostly blatantly copied)
+1. make a github account if you haven't already
+2. click the "fork" button in the top right of this repository
+3. Download [github desktop](https://desktop.github.com/)
+4. Go to your forked repo (so, yourname/BeatOnCustomSabers) and click "Clone or Download", Copy that link
+5. Go to github Desktop: File -> Clone repository -> URL and paste the link, then click clone (keep note of the local path you put the repo in)
+6. Head to where you saved the repo in your file explorer (C:\User\GitHub\BeatOnCustomSabers)
+7. Go to the "Sabers" folder.
+8. Create a new folder for your sabers (ex. "LaBandit915's sabers")
+9. Drag your zip file in this folder
+10. Head back to Github desktop
+11. Add a summary for your commit at the bottom left (ex. "Added {saberName} by LaBandit915")
+12. Press commit
+13. Press push
+14. Go back to your forked repo and press "Create pull request" and submit!
 
-We recommend using the [github desktop program](https://desktop.github.com/) for this
-
-
+Once we accept your pull request your saber will be added here!
