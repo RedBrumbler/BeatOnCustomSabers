@@ -57,6 +57,14 @@ Please keep in mind that before you export, you should resize and orient the sab
 
 export the 3 files separately, preferably as a .obj file, but if you’re like me and use fusion360 or other program that can’t export as .obj, you’ll have to convert the mesh format to .obj using http://www.meshconvert.com/
 
+In order to use your Saber on BeatOn, you MUST have three separate pieces. Each piece represents a different material used in game (like so):
+ 
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/example-saber.jpg)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/model-example.png)
+ 
+It is also possible for you to have dummy pieces instead of having three separate objects. For example, you can have just a blade and handle and for the glowing edges, you can add an extra mesh hidden inside your model.
+
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/dummy-piece.png)
 
 Getting them into a mod:
 ====== 
