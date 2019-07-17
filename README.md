@@ -1,6 +1,7 @@
-### @RedBrumbler#6295 ‘s (or u/RedBrumbler) and @Rugtveit#1337 ‘s Guide to making custom sabers for the BeatOn Asset replacement mod
+### @RedBrumbler#6295 ‘s (or u/RedBrumbler) Guide to making custom sabers for the BeatOn Asset replacement mod
+(Rugtveit has withdrawn from the guidemaking so their name has been taken out)
 
-#### DISCLAIMER: Making custom sabers / getting custom sabers to work may require you to reset your assets (thus making you sort your songs again) multiple times, so losing all your song data is not uncommon, we are not responsible for you needing to reset your assets so don't complain about it to us
+#### DISCLAIMER: Making custom sabers / getting custom sabers to work may require you to reset your assets (thus making you sort your songs again) multiple times, so losing all your song data is not uncommon, I am not responsible for you needing to reset your assets so don't complain about it to me
 
 Useful links:
 ------
@@ -9,6 +10,7 @@ Useful links:
 - [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators)
 - [Blender](https://www.blender.org/)
 - Also check out the Sabers folder in this github! there's a few sabers in there already! (to add to it yourself scroll down to the bottom of this readme)
+
 required programs/files for making a saber:
 ------
 - Unity version [2018.3.10f1](https://unity3d.com/get-unity/download?thank-you=update&download_nid=61246&os=Win) or higher
@@ -16,9 +18,9 @@ required programs/files for making a saber:
 
 ![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/unityprojectDL.png)
 
-- Model program of your choice (RedBrumbler prefers fusion360)
+- Model program of your choice (I prefer fusion360)
 - UnityAssetBundleExtractor [(UABE)](https://mega.nz/#!eRY3gAAI!wEB5cTEAxtEEbe7jIKroatUxwYtwmcUnCjAzoMBEyCs)
-NOT our program, be careful when downloading programs from the internet!
+NOT my program, be careful when downloading programs from the internet!
 - http://www.meshconvert.com/
 - The [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guide%20files/Guide%20files.zip) Contains an .stl SaberTemplate, .obj SaberTemplate and a configured beatonmod.json
 
@@ -119,10 +121,10 @@ I put them in here, with the beatonmod.json
 
 Now to make the actual mod, if you haven’t already download the [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guide%20files/Guide%20files.zip) and open the beatonmod.json in a text editor (would not recommend regular notepad, something like notepad++ works way better)
 
-#### A new update to Beaton (0.9.8) Brought us the possibility of adding cover images to our mods, it doesn't matter too much what the image is (make it recognizable! for sabers we reccomend using a picture of the saber, look at RedBrumbler's saber pictures/mod Cover images for a way to do this!) just make sure the image is 150 (w) x 200 (h) and is named "Cover.png" that way it will show up in BeatOn
+#### A new update to Beaton (0.9.8) Brought us the possibility of adding cover images to our mods, it doesn't matter too much what the image is (make it recognizable! for sabers I reccommend using a picture of the saber, look at my saber pictures/mod Cover images for a way to do this!) just make sure the image is 150 (w) x 200 (h) and is named "Cover.png" that way it will show up in BeatOn
 
 at the top of the json you’ll see this info, now all you have to do is input your own info in there and name things correctly.
-We recommend to only change the id, name, author, description and version numbers
+I recommend to only change the id, name, author, description and version numbers
 
 ```
 "id": "ModID",
@@ -145,7 +147,7 @@ for my sword I changed it to this:
   "author": "RedBrumbler", --Your name here, so people know who made that saber
   "description": ["Connie's sword Bismuth made for her from the Cartoon Network Show 'Steven Universe'"], --description, can be used to credit others whose work you worked off of, or a great place to make meta jokes
   "gameVersion": "1.1.0",
-  "version": "1.0.1.0", --Version of the mod, we reccommend to bump the last number up for small changes, but for larger redesigns use the second number
+  "version": "1.0.1.0", --Version of the mod, I reccommend to bump the last number up for small changes, but for larger redesigns use the second number
   "platform": "Quest",
   "category": "Saber",
   "coverImageFilename": "Cover.png", --it's easier to just name the cover image to Cover.png than to keep editing this one IMO -Redbrumbler
@@ -167,14 +169,14 @@ Now you should be ready to upload to BeatOn!
 
 ![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles9.png)
 
-if you get "invalid mod", you likely are missing an argument in the info part we just listed, make sure all of it is there!
+if you get "invalid mod", you likely are missing an argument in the info part I just listed, make sure all of it is there!
 
 If it doesn’t work you might have to reset your assets (will lose all loaded songs, be careful!) but pressing reload songs will load back most of them, if it says invalid mod file you might miss some files or made an incomplete json
 
 If sabers (even confirmed working ones) don't show up at all then you might even need to completely reinstall beat saber
 
-We also support adding your sabers to the repository here!
-(explanation adapted from @Yuuki#0802 from BSMG, and by that we mean mostly blatantly copied)
+I also support adding your sabers to the repository here!
+(explanation adapted from @Yuuki#0802 from BSMG, and by that I mean mostly blatantly copied)
 1. make a github account if you haven't already
 2. click the "fork" button in the top right of this repository
 3. Download [github desktop](https://desktop.github.com/)
@@ -190,4 +192,4 @@ We also support adding your sabers to the repository here!
 13. Press push
 14. Go back to your forked repo and press "Create pull request" and submit!
 
-Once we accept your pull request your saber will be added here!
+Once I or Yuuki accepts your pull request your saber will be added here!
