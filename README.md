@@ -27,7 +27,7 @@ NOT my program, be careful when downloading programs from the internet!
 
 Splitting pre-made models:
 ------
-####[Separating Objects in Blender](https://youtu.be/P_C3xkVT044)
+#### [Separating Objects in Blender](https://youtu.be/P_C3xkVT044)
 
 Making your own models:
 ------
