@@ -29,6 +29,20 @@ Splitting pre-made models:
 ------
 #### [Separating Objects in Blender](https://youtu.be/P_C3xkVT044)
 
+Converting PC .saber files:
+------
+short version:
+1. download desired saber
+2. open .saber with UABE
+3. save somewhere
+4. click info
+5. click plugins in UABE and save the meshes as .obj
+6. open .objs in modeling program
+7. orient meshes with help of SaberTemplate_new
+8. save as .obj
+9. follow rest of guide
+
+
 Making your own models:
 ------
 You can also make your own models!
