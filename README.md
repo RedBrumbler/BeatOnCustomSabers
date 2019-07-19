@@ -49,7 +49,7 @@ Rule established by the BSMG around porting sabers:
 
 1. Download desired saber from [ModelSaber](https://modelsaber.com/Sabers/)
 2. Open .saber file with UABE
-3. Click Export
+3. Save the data somewhere
 4. Click Info
 5. Click plugins in UABE and save the meshes as .obj
 6. Open all .obj files in modeling program
