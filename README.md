@@ -148,7 +148,13 @@ Inside the build folder should be a folder called customSabers_data, go into tha
 
 You’ll get this screen, and your models will have a name, to know which is which you can look at the sizes, for example the size of the handle was the largest, so we know that the largest file here is the handle mesh. Looking at the sizes before you make the raw files and after can help you identify them. To get the raw unity mesh data you click on export Raw.
 
-*Remember earlier: we named each object based on the material we wanted them to have. This is important now as well. Ex. `Blade.obj` should become `SaberBlade.dat`. `Handle.obj` should become `SaberHandle.dat`. GlowingEdges.obj should become `SaberGlowingEdges.dat`*
+*Remember earlier: we named each object based on the material we wanted them to have. This is important now as well:*
+
+`Blade.obj` should become `SaberBlade.dat`.
+
+`Handle.obj` should become `SaberHandle.dat`.
+
+*`GlowingEdges.obj` should become `SaberGlowingEdges.dat`*
 
 ![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles5.png)
 
