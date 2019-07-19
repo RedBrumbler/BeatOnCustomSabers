@@ -55,6 +55,8 @@ Meshes don’t have to be connected to function as one mesh! so whatever you do,
 
 Please keep in mind that before you export, you should resize and orient the saber to the provided SaberTemplate. Move YOUR saber, not the template! this makes sure that we get the sword in the right position. Make sure that the “top” (non-cutting side) of your sword is aligned with the arrow on the template (from the [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guide%20files/Guide%20files.zip)), and that the sword is aligned with the template along it's length 
 
+#### I have created a new Model Template, it's way clearer to use and will let you orient the sword correctly no doubt! It also cointaisn some tips on where to put different parts when you are modeling your own sabers (like thickness, where to start the blade and where to place the hilt and pommel)
+
 ![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/Template.png)
 
 export the 3 files separately, preferably as a .obj file, but if you’re like me and use fusion360 or other program that can’t export as .obj, you’ll have to convert the mesh format to .obj using http://www.meshconvert.com/
