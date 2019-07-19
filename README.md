@@ -164,7 +164,26 @@ Put these files in a new folder that is the name of your saber (we will be conve
 
 Now to make the actual mod, if you haven’t already download the [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guide%20files/Guide%20files.zip) and open the beatonmod.json in a text editor (would not recommend regular notepad, something like notepad++ works way better)
 
+
+
+### Taking a Picture of Your Saber
+
 #### A new update to Beaton (0.9.8) Brought us the possibility of adding cover images to our mods, it doesn't matter too much what the image is (make it recognizable! for sabers I recommend using a picture of the saber, look at my saber pictures/mod Cover images for a way to do this!) just make sure the image is 150 (w) x 200 (h) and is named "Cover.png" that way it will show up in BeatOn
+
+Before starting, you will need to zip your saber up and drag it onto BeatOn's Upload screen. Make sure your saber is installed.
+
+1. Start Beat Saber (not through BeatOn as this will cause the Quest's screencapture capabilities to not work)
+2. Head to the tutorial
+3. Go back to the Quest home screen and click "Sharing" at the bottom
+4. Click record or capture image
+5. **If you want to capture image:** Hold your left saber diagonally across your left eye (close your right eye if necessary)
+6. **If you want to record:** Hold your saber diagonally and stop the recording. 
+7. Plug your Quest up to your PC
+8. Open SideQuest
+9. Go to the "Files" tab
+10. Head to the Oculus -> Screenshots folder
+11. Export to your saber's folder
+12. If you recorded a video, export the video to a location on your pc, open the video and find a good spot to take a screen shot. Save the screenshot in your saber's folder
 
 At the top of the json you’ll see this info, now all you have to do is input your own info in there and name things correctly.
 I recommend to only change the id, name, author, description and version numbers
