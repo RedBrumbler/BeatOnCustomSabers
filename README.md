@@ -35,11 +35,6 @@
 
 # Get Your Saber Model
 
-
-Splitting pre-made models:
-------
-[![Separating Objects in Blender](https://img.youtube.com/vi/P_C3xkVT044/0.jpg)](https://youtu.be/P_C3xkVT044 "Separating Objects in Blender")
-
 Converting PC .saber files:
 ------
 Rule established by the BSMG around porting sabers:
@@ -60,9 +55,13 @@ Rule established by the BSMG around porting sabers:
 8. Export to the three required .obj (Blade.obj, Handle.obj, GlowingEdges.obj)
 9. Skip to ["Getting Them Into a Mod"]()
 
+## Splitting pre-made models:
+
+[![Separating Objects in Blender](https://img.youtube.com/vi/P_C3xkVT044/0.jpg)](https://youtu.be/P_C3xkVT044 "Separating Objects in Blender")
 
 Making your own models:
 ------
+
 You can also make your own models!
 
 I will not make this guide on how to use model software to do so, just how to export the files from your model program to something usable for making the sabers, make sure to have the different parts split up to make sure you can give them the different textures/shaders.
