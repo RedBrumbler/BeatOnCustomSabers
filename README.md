@@ -33,7 +33,7 @@
 - Model program of your choice (I prefer fusion360)
 - UnityAssetBundleExtractor [(UABE)](https://mega.nz/#!eRY3gAAI!wEB5cTEAxtEEbe7jIKroatUxwYtwmcUnCjAzoMBEyCs)
   *NOT my program, be careful when downloading programs from the internet!*
-- The [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guide%20files/Guide%20files.zip) Contains an .stl SaberTemplate, .obj SaberTemplate and a configured beatonmod.json
+- The [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/Guidefiles.zip) Contains an .stl SaberTemplate, .obj SaberTemplate and a configured beatonmod.json
 
 # Get Your Saber Model
 
@@ -70,29 +70,29 @@ I will not make this guide on how to use model software to do so, just how to ex
 
 For example, this sword I made is split into different parts:
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/SwordBlade.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/SwordBlade.png)
 
 The blade and shiny accents. Saved this part as `Blade.obj`
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/shinyaccent.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/shinyaccent.png)
 
 The slightly colored white bits. Saved this part as `GlowingEdges.obj`
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/Handle.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/Handle.png)
 
 And the handle. Saved this part as `Handle.obj`
 
 Together these make the sword possible:
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/Sword.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/Sword.png)
 
 Meshes don’t have to be connected to function as one mesh! So, whatever you do, if you have multiple meshes that need to be one, export them as one file, otherwise you won’t be able to get them into the mod correctly.
 
-Please keep in mind that before you export, you should resize and orient the saber to the provided SaberTemplate. Move YOUR saber, not the template! This makes sure that we get the sword in the right position. Make sure that the “top” (non-cutting side) of your sword is aligned with the arrow on the template (from the [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guide%20files/Guide%20files.zip)), and that the sword is aligned with the template along it's length 
+Please keep in mind that before you export, you should resize and orient the saber to the provided SaberTemplate. Move YOUR saber, not the template! This makes sure that we get the sword in the right position. Make sure that the “top” (non-cutting side) of your sword is aligned with the arrow on the template (from the [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/Guidefiles.zip)), and that the sword is aligned with the template along it's length 
 
 #### I have created a new Model Template, it's way clearer to use and will let you orient the sword correctly no doubt! It also contains some tips on where to put different parts when you are modeling your own sabers (like thickness, where to start the blade, and where to place the hilt and pommel)
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/Template.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/Template.png)
 
 export the 3 files separately, preferably as a .obj file, but if you’re like me and use fusion360 or other program that can’t export as .obj, you’ll have to convert the mesh format to .obj using http://www.meshconvert.com/
 
@@ -100,12 +100,12 @@ export the 3 files separately, preferably as a .obj file, but if you’re like m
 
 #### Note: In order to use your Saber on BeatOn, you **MUST** have three separate pieces. Each piece represents a different material used in game (like so):
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/example-saber.jpg)
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/model-example.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/example-saber.jpg)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/model-example.png)
 
 It is also possible for you to have dummy pieces instead of having three separate objects. For example, you can have just a blade and handle and for the glowing edges, you can add an extra mesh hidden inside your model.
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/dummy-piece.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/dummy-piece.png)
 
 Converting Your Objects to a Mod:
 ====== 
@@ -116,15 +116,15 @@ You’ll start by installing unity version 2018.3.10f1 and opening the unity pro
 
 Open the unity project by double clicking on sabers.unity
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles1.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles1.png)
 
 Move in the separate .obj files
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles2.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles2.png)
 
 To check if they are oriented correctly, move them into the left field
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfilesmissing.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfilesmissing.png)
 
 If you look at the sword, it should be facing down, and what you want to be the upside to be in Beat Saber should be pointing in the direction of the sabers which are there, and the handle should be sticking up somewhat on top of them (just like in the image)
 
@@ -134,17 +134,17 @@ Raw Unity Mesh Files
 ------
 Now that your orientation is right it’s time to convert them into raw unity mesh files. To start off with that, you’ll need to build the scene, press Ctrl + shift + b to open build settings, and build the scene for windows, mac and linux
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles3.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles3.png)
 
 Let it build in a folder of your choice (I would create a new folder called "Build") and open UABE
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfilesmissing2.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfilesmissing2.png)
 
 Once in UABE, go to file -> open and navigate to the folder you built the scene in.
 
 Inside the build folder should be a folder called customSabers_data, go into that folder and open sharedassets0.assets with UABE
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles4.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles4.png)
 
 You’ll get this screen, and your models will have a name, to know which is which you can look at the sizes, for example the size of the handle was the largest, so we know that the largest file here is the handle mesh. Looking at the sizes before you make the raw files and after can help you identify them. To get the raw unity mesh data you click on export Raw.
 
@@ -156,13 +156,13 @@ You’ll get this screen, and your models will have a name, to know which is whi
 
 *`GlowingEdges.obj` should become `SaberGlowingEdges.dat`*
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles5.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles5.png)
 
 Put these files in a new folder that is the name of your saber (we will be converting this folder to .zip for easy uploading later)
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles6.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles6.png)
 
-Now to make the actual mod, if you haven’t already download the [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guide%20files/Guide%20files.zip) and open the beatonmod.json in a text editor (would not recommend regular notepad, something like notepad++ works way better)
+Now to make the actual mod, if you haven’t already download the [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/Guidefiles.zip) and open the beatonmod.json in a text editor (would not recommend regular notepad, something like notepad++ works way better)
 
 
 
@@ -229,7 +229,7 @@ Now that you have all your files ready you can bundle them into a zip file (winr
 
 Now you should be ready to upload to BeatOn!
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles9.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles9.png)
 
 If you get "invalid mod", you likely are missing an argument in the info part I just listed, make sure all of it is there!
 
