@@ -38,7 +38,7 @@
 
 Splitting pre-made models:
 ------
-#### [Separating Objects in Blender](https://youtu.be/P_C3xkVT044)
+[![Separating Objects in Blender](https://img.youtube.com/vi/P_C3xkVT044/0.jpg)](https://youtu.be/P_C3xkVT044 "Separating Objects in Blender")
 
 Converting PC .saber files:
 ------
