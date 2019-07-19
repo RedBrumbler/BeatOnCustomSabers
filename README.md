@@ -1,3 +1,5 @@
+# Guide to Making Custom Sabers for BeatOn
+
 ### @RedBrumbler#6295 ‘s (or u/RedBrumbler) Guide to making custom sabers for the BeatOn Asset replacement mod
 
 **CoEdited by Yuuki#0802**
