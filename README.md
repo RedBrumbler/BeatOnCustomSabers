@@ -45,7 +45,7 @@ Rule established by the BSMG around porting sabers:
 
 **Short Version:**
 
-1. Download desired saber from [ModelSaber](https://modelsaber.com/)
+1. Download desired saber from [ModelSaber](https://modelsaber.com/Sabers/)
 2. Open .saber file with UABE
 3. Click Export
 4. Click Info
