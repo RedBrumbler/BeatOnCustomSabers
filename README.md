@@ -20,9 +20,9 @@
 - [Sidequest Discord](https://discord.me/sidequestvr)
 - [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators)
 - [Blender](https://www.blender.org/)
-- [Custom Sabers]()
-- [Custom Blocks/Notes]()
-- [Other Asset Mods]()
+- [Custom Sabers](https://github.com/RedBrumbler/BeatOnCustomSabers/tree/master/Sabers)
+- [Custom Blocks/Notes](https://github.com/RedBrumbler/BeatOnCustomSabers/tree/master/NoteCubes)
+- [Other Asset Mods](https://github.com/RedBrumbler/BeatOnCustomSabers/tree/master/MiscAssetMods)
 
 # Required Programs and Files for Making a Saber:
 
