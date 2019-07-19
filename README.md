@@ -1,33 +1,41 @@
+# Guide to Making Custom Sabers for BeatOn
+
 ### @RedBrumbler#6295 ‘s (or u/RedBrumbler) Guide to making custom sabers for the BeatOn Asset replacement mod
+
+**CoEdited by Yuuki#0802**
+
 (Rugtveit has withdrawn from the guidemaking so their name has been taken out)
 
 #### DISCLAIMER: Making custom sabers / getting custom sabers to work may require you to reset your assets (thus making you sort your songs again) multiple times, so losing all your song data is not uncommon, I am not responsible for you needing to reset your assets so don't complain about it to me
 
-Useful links:
-------
+# Table of Contents
+
+1. [Useful Links](#useful-links)
+2. [Required Programs/Files](#required-programs-and-files-for-making-a-saber)
+3. [Get Your Saber Model](#get-your-saber-model)
+4. [Converting Your Objects to a Mod](#converting-your-objects-to-a-mod)
+5. [Add Your Sabers to the Repo](#add-your-sabers-to-the-repo)
+
+# Useful Links
+
 - [BeatOn by Emulamer](https://github.com/emulamer/BeatOn/releases)
 - [Sidequest Discord](https://discord.me/sidequestvr)
 - [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators)
 - [Blender](https://www.blender.org/)
-- Also check out the Sabers folder in this github! there's a few sabers in there already! (to add to it yourself scroll down to the bottom of this readme)
+- [Custom Sabers](https://github.com/RedBrumbler/BeatOnCustomSabers/tree/master/Sabers)
+- [Custom Blocks/Notes](https://github.com/RedBrumbler/BeatOnCustomSabers/tree/master/NoteCubes)
+- [Other Asset Mods](https://github.com/RedBrumbler/BeatOnCustomSabers/tree/master/MiscAssetMods)
 
-required programs/files for making a saber:
-------
-- Unity version [2018.3.10f1](https://unity3d.com/get-unity/download?thank-you=update&download_nid=61246&os=Win) or higher
-- The unity project from [this tutorial](https://bs.assistant.moe/Sabers/)
+# Required Programs and Files for Making a Saber:
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/unityprojectDL.png)
-
+- Unity version [2018.3.10f1](https://unity3d.com/get-unity/download?thank-you=update&download_nid=61246&os=Win) or higher (any lower and BeatSaber will crash)
+- This [unity project](https://bs.assistant.moe/Sabers/resources/CustomSaberUnityProject.zip). Source: [here](https://bs.assistant.moe/Sabers/)
 - Model program of your choice (I prefer fusion360)
 - UnityAssetBundleExtractor [(UABE)](https://mega.nz/#!eRY3gAAI!wEB5cTEAxtEEbe7jIKroatUxwYtwmcUnCjAzoMBEyCs)
-NOT my program, be careful when downloading programs from the internet!
-- http://www.meshconvert.com/
-- The [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guide%20files/Guide%20files.zip) Contains an .stl SaberTemplate, .obj SaberTemplate and a configured beatonmod.json
+  *NOT my program, be careful when downloading programs from the internet!*
+- The [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/Guidefiles.zip) Contains an .stl SaberTemplate, .obj SaberTemplate and a configured beatonmod.json
 
-
-Splitting pre-made models:
-------
-#### [Separating Objects in Blender](https://youtu.be/P_C3xkVT044)
+# Get Your Saber Model
 
 Converting PC .saber files:
 ------
@@ -37,115 +45,147 @@ Rule established by the BSMG around porting sabers:
 >
 >We decided to do it this way because if we ever 100% automate the process of using PC sabers, there'd be no question of whether you could use a saber made for Beat Saber. Requiring explicit permission on a port would slow down ports I think and with the author still getting credit, the modelers when asked didn't seem to have an issue with it. We'll let you know if any of that changes! (just PM if any modeler has an issue with this policy)
 
-short version:
-1. download desired saber
-2. open .saber with UABE
-3. save somewhere
-4. click info
-5. click plugins in UABE and save the meshes as .obj
-6. open .objs in modeling program
-7. orient meshes with help of SaberTemplate_new
-8. save as .obj
-9. follow rest of guide
+**Short Version:**
 
+1. Download desired saber from [ModelSaber](https://modelsaber.com/Sabers/)
+2. Open .saber file with UABE
+3. Click Export
+4. Click Info
+5. Click plugins in UABE and save the meshes as .obj
+6. Open all .obj files in modeling program
+7. Orient meshes to match saber template
+8. Export to the three required .obj (Blade.obj, Handle.obj, GlowingEdges.obj)
+9. Skip to ["Getting Them Into a Mod"]()
+
+## Splitting pre-made models:
+
+[![Separating Objects in Blender](https://img.youtube.com/vi/P_C3xkVT044/0.jpg)](https://youtu.be/P_C3xkVT044 "Separating Objects in Blender")
 
 Making your own models:
 ------
+
 You can also make your own models!
-I will not make this guide on how to use model software to do so, just how to export the files from your model program to something usable for making the sabers, 
-make sure to have the different parts split up to make sure you can give them the different textures/shaders
+
+I will not make this guide on how to use model software to do so, just how to export the files from your model program to something usable for making the sabers, make sure to have the different parts split up to make sure you can give them the different textures/shaders.
+
 For example, this sword I made is split into different parts:
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/SwordBlade.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/SwordBlade.png)
 
-The blade and shiny accents
+The blade and shiny accents. Saved this part as `Blade.obj`
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/shinyaccent.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/shinyaccent.png)
 
-The slightly colored white bits
+The slightly colored white bits. Saved this part as `GlowingEdges.obj`
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/Handle.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/Handle.png)
 
-And the handle
+And the handle. Saved this part as `Handle.obj`
+
 Together these make the sword possible:
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/Sword.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/Sword.png)
 
-Meshes don’t have to be connected to function as one mesh! so whatever you do, if you have multiple meshes that need to be one, export them as one file, otherwise you won’t be able to get them into the mod correctly.
+Meshes don’t have to be connected to function as one mesh! So, whatever you do, if you have multiple meshes that need to be one, export them as one file, otherwise you won’t be able to get them into the mod correctly.
 
-Please keep in mind that before you export, you should resize and orient the saber to the provided SaberTemplate. Move YOUR saber, not the template! this makes sure that we get the sword in the right position. Make sure that the “top” (non-cutting side) of your sword is aligned with the arrow on the template (from the [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guide%20files/Guide%20files.zip)), and that the sword is aligned with the template along it's length 
+Please keep in mind that before you export, you should resize and orient the saber to the provided SaberTemplate. Move YOUR saber, not the template! This makes sure that we get the sword in the right position. Make sure that the “top” (non-cutting side) of your sword is aligned with the arrow on the template (from the [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/Guidefiles.zip)), and that the sword is aligned with the template along it's length 
 
-#### I have created a new Model Template, it's way clearer to use and will let you orient the sword correctly no doubt! It also cointaisn some tips on where to put different parts when you are modeling your own sabers (like thickness, where to start the blade and where to place the hilt and pommel)
+#### I have created a new Model Template, it's way clearer to use and will let you orient the sword correctly no doubt! It also contains some tips on where to put different parts when you are modeling your own sabers (like thickness, where to start the blade, and where to place the hilt and pommel)
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/Template.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/Template.png)
 
 export the 3 files separately, preferably as a .obj file, but if you’re like me and use fusion360 or other program that can’t export as .obj, you’ll have to convert the mesh format to .obj using http://www.meshconvert.com/
 
-In order to use your Saber on BeatOn, you MUST have three separate pieces. Each piece represents a different material used in game (like so):
- 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/example-saber.jpg)
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/model-example.png)
- 
+
+
+#### Note: In order to use your Saber on BeatOn, you **MUST** have three separate pieces. Each piece represents a different material used in game (like so):
+
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/example-saber.jpg)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/model-example.png)
+
 It is also possible for you to have dummy pieces instead of having three separate objects. For example, you can have just a blade and handle and for the glowing edges, you can add an extra mesh hidden inside your model.
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/dummy-piece.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/dummy-piece.png)
 
-Getting them into a mod:
+Converting Your Objects to a Mod:
 ====== 
-After getting your .obj files you’ll be able to make them into a mod compatible with Beat saber for quest
+After getting your .obj files, you’ll be able to make them into a mod compatible with Beat Saber for Quest
 
-You’ll start by installing unity version 2018.3.10f1 and opening the unity project that you have downloaded (see required files) it might say you opened it with the wrong unity version but that is okay since it should port over fine since we’re only using the project for reference and to make sure that the sabers are the correct size
+You’ll start by installing unity version 2018.3.10f1 and opening the unity project that you have downloaded (see required files). It might say you opened it with the wrong unity version but that is okay since it should port over fine since we’re only using the project for reference and to make sure that the sabers are the correct size.
 
 
-open the unity project by double clicking on sabers.unity
+Open the unity project by double clicking on sabers.unity
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles1.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles1.png)
 
 Move in the separate .obj files
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles2.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles2.png)
 
 To check if they are oriented correctly, move them into the left field
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfilesmissing.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfilesmissing.png)
 
-If you look at the sword, it should be facing down, and what you want to be the upside to be in beat saber should be pointing in the direction of the sabers which are there, and the handle should be sticking up somewhat on top of them (just like in the image)
+If you look at the sword, it should be facing down, and what you want to be the upside to be in Beat Saber should be pointing in the direction of the sabers which are there, and the handle should be sticking up somewhat on top of them (just like in the image)
 
-If the orientation is not correct you need to go back to your model software and change the placement and orientation of your models in there, and then save them and get them in unity again DELETE THE OLD MODELS FROM UNITY, THEY’LL ONLY MAKE THE NEXT STEP HARDER (if orientation is correct of course don't delete the models)
+If the orientation is not correct you need to go back to your model software and change the placement and orientation of your models in there, and then save them and get them in unity again. DELETE THE OLD MODELS FROM UNITY, THEY’LL ONLY MAKE THE NEXT STEP HARDER (if orientation is correct, of course, don't delete the models)
 
 Raw Unity Mesh Files
 ------
-Now that your orientation is right it’s time to convert them into raw unity mesh files
-To start off with that, you’ll need to build the scene, press Ctrl + shift + b to open build settings, and build the scene for windows, mac and linux
+Now that your orientation is right it’s time to convert them into raw unity mesh files. To start off with that, you’ll need to build the scene, press Ctrl + shift + b to open build settings, and build the scene for windows, mac and linux
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles3.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles3.png)
 
-let it build in a folder of your choice, and open UABE
+Let it build in a folder of your choice (I would create a new folder called "Build") and open UABE
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfilesmissing2.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfilesmissing2.png)
 
-once in UABE, go to file -> open and navigate to the folder you built the scene in, for me it’s called build
+Once in UABE, go to file -> open and navigate to the folder you built the scene in.
+
 Inside the build folder should be a folder called customSabers_data, go into that folder and open sharedassets0.assets with UABE
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles4.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles4.png)
 
-You’ll get this screen, and your models will have a name, to know which is which you can look at the sizes, for example the size of the handle was the largest, so we know that the largest file here is the handle mesh. looking at the sizes before you make the raw files and after can help you identify them. To get the raw unity mesh data you click on export Raw and you’ll have to save the file as a name.
-If you've worked from a .xmf file, your models might have names which makes it easier to identify
+You’ll get this screen, and your models will have a name, to know which is which you can look at the sizes, for example the size of the handle was the largest, so we know that the largest file here is the handle mesh. Looking at the sizes before you make the raw files and after can help you identify them. To get the raw unity mesh data you click on export Raw.
 
-name the mesh you want to have the blade material SaberBlade.dat, name the mesh you want to have the Handle material SaberHandle.dat and name the mesh you want to have the Glowing material SaberGlowingEdges.dat
+*Remember earlier: we named each object based on the material we wanted them to have. This is important now as well:*
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles5.png)
+`Blade.obj` should become `SaberBlade.dat`.
 
-put these files in a folder that makes sense to you
-I put them in here, with the beatonmod.json
+`Handle.obj` should become `SaberHandle.dat`.
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles6.png)
+*`GlowingEdges.obj` should become `SaberGlowingEdges.dat`*
 
-Now to make the actual mod, if you haven’t already download the [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guide%20files/Guide%20files.zip) and open the beatonmod.json in a text editor (would not recommend regular notepad, something like notepad++ works way better)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles5.png)
 
-#### A new update to Beaton (0.9.8) Brought us the possibility of adding cover images to our mods, it doesn't matter too much what the image is (make it recognizable! for sabers I reccommend using a picture of the saber, look at my saber pictures/mod Cover images for a way to do this!) just make sure the image is 150 (w) x 200 (h) and is named "Cover.png" that way it will show up in BeatOn
+Put these files in a new folder that is the name of your saber (we will be converting this folder to .zip for easy uploading later)
 
-at the top of the json you’ll see this info, now all you have to do is input your own info in there and name things correctly.
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles6.png)
+
+Now to make the actual mod, if you haven’t already download the [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/Guidefiles.zip) and open the beatonmod.json in a text editor (would not recommend regular notepad, something like notepad++ works way better)
+
+
+
+### Taking a Picture of Your Saber
+
+#### A new update to Beaton (0.9.8) Brought us the possibility of adding cover images to our mods, it doesn't matter too much what the image is (make it recognizable! for sabers I recommend using a picture of the saber, look at my saber pictures/mod Cover images for a way to do this!) just make sure the image is 150 (w) x 200 (h) and is named "Cover.png" that way it will show up in BeatOn
+
+Before starting, you will need to zip your saber up and drag it onto BeatOn's Upload screen. Make sure your saber is installed.
+
+1. Start Beat Saber (not through BeatOn as this will cause the Quest's screencapture capabilities to not work)
+2. Head to the tutorial
+3. Go back to the Quest home screen and click "Sharing" at the bottom
+4. Click record or capture image
+5. **If you want to capture image:** Hold your left saber diagonally across your left eye (close your right eye if necessary)
+6. **If you want to record:** Hold your saber diagonally and stop the recording. 
+7. Plug your Quest up to your PC
+8. Open SideQuest
+9. Go to the "Files" tab
+10. Head to the Oculus -> Screenshots folder
+11. Export to your saber's folder
+12. If you recorded a video, export the video to a location on your pc, open the video and find a good spot to take a screen shot. Save the screenshot in your saber's folder
+
+At the top of the json you’ll see this info, now all you have to do is input your own info in there and name things correctly.
 I recommend to only change the id, name, author, description and version numbers
 
 ```
@@ -174,7 +214,7 @@ for my sword I changed it to this:
   "category": "Saber",
   "coverImageFilename": "Cover.png", --it's easier to just name the cover image to Cover.png than to keep editing this one IMO -Redbrumbler
   "components":
-``` 
+```
 
 
 
@@ -185,25 +225,28 @@ Now that you have all your files ready you can bundle them into a zip file (winr
 - SaberGlowingEdges.dat
 - Cover.png
 
-#### A .rar file won't work! it has to be .zip!
+#### A .rar file won't work! It has to be .zip!
 
 Now you should be ready to upload to BeatOn!
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guide%20files/modfiles9.png)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles9.png)
 
-if you get "invalid mod", you likely are missing an argument in the info part I just listed, make sure all of it is there!
+If you get "invalid mod", you likely are missing an argument in the info part I just listed, make sure all of it is there!
 
 If it doesn’t work you might have to reset your assets (will lose all loaded songs, be careful!) but pressing reload songs will load back most of them, if it says invalid mod file you might miss some files or made an incomplete json
 
 If sabers (even confirmed working ones) don't show up at all then you might even need to completely reinstall beat saber
 
+# Add Your Sabers to the Repo
+
 I also support adding your sabers to the repository here!
 (explanation adapted from @Yuuki#0802 from BSMG, and by that I mean mostly blatantly copied)
-1. make a github account if you haven't already
-2. click the "fork" button in the top right of this repository
+
+1. Make a Github account if you haven't already
+2. Click the "fork" button in the top right of this repository
 3. Download [github desktop](https://desktop.github.com/)
 4. Go to your forked repo (so, yourname/BeatOnCustomSabers) and click "Clone or Download", Copy that link
-5. Go to github Desktop: File -> Clone repository -> URL and paste the link, then click clone (keep note of the local path you put the repo in)
+5. Go to Github Desktop: File -> Clone repository -> URL and paste the link, then click clone (keep note of the local path you put the repo in)
 6. Head to where you saved the repo in your file explorer (C:\User\GitHub\BeatOnCustomSabers)
 7. Go to the "Sabers" folder.
 8. Create a new folder for your sabers (ex. "LaBandit915's sabers")
@@ -214,4 +257,4 @@ I also support adding your sabers to the repository here!
 13. Press push
 14. Go back to your forked repo and press "Create pull request" and submit!
 
-Once I or Yuuki accepts your pull request your saber will be added here!
+***Once I or Yuuki accepts your pull request your saber will be added here!***
