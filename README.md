@@ -8,7 +8,7 @@
 
 # Table of Contents
 
-1. [Useful Links](##useful-links)
+1. [Useful Links](#useful-links)
 2. [Required Programs/Files](#required-programs-and-files-for-making-a-saber)
 3. [Get Your Saber Model](#get-your-saber-model)
 4. [Converting Your Objects to a Mod](#converting-your-objects-to-a-mod)
