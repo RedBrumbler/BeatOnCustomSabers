@@ -6,15 +6,16 @@
 
 #### DISCLAIMER: Making custom sabers / getting custom sabers to work may require you to reset your assets (thus making you sort your songs again) multiple times, so losing all your song data is not uncommon, I am not responsible for you needing to reset your assets so don't complain about it to me
 
-## Table of Contents:
+# Table of Contents
 
 1. [Useful Links](##useful-links)
-2. [Required Programs/Files](##required-programs/files-for-making-a-saber)
+2. [Required Programs/Files](#required-programs-and-files-for-making-a-saber)
 3. [Get Your Saber Model](#get-your-saber-model)
 4. [Converting Your Objects to a Mod](#converting-your-objects-to-a-mod)
+5. [Add Your Sabers to the Repo](#add-your-sabers-to-the-repo)
 
-Useful links:
-------
+# Useful Links
+
 - [BeatOn by Emulamer](https://github.com/emulamer/BeatOn/releases)
 - [Sidequest Discord](https://discord.me/sidequestvr)
 - [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators)
@@ -23,8 +24,8 @@ Useful links:
 - [Custom Blocks/Notes]()
 - [Other Asset Mods]()
 
-Required Programs/Files for Making a Saber:
-------
+# Required Programs and Files for Making a Saber:
+
 - Unity version [2018.3.10f1](https://unity3d.com/get-unity/download?thank-you=update&download_nid=61246&os=Win) or higher (any lower and BeatSaber will crash)
 - This [unity project](https://bs.assistant.moe/Sabers/resources/CustomSaberUnityProject.zip). Source: [here](https://bs.assistant.moe/Sabers/)
 - Model program of your choice (I prefer fusion360)
@@ -210,8 +211,11 @@ If it doesn’t work you might have to reset your assets (will lose all loaded s
 
 If sabers (even confirmed working ones) don't show up at all then you might even need to completely reinstall beat saber
 
+# Add Your Sabers to the Repo
+
 I also support adding your sabers to the repository here!
 (explanation adapted from @Yuuki#0802 from BSMG, and by that I mean mostly blatantly copied)
+
 1. Make a Github account if you haven't already
 2. Click the "fork" button in the top right of this repository
 3. Download [github desktop](https://desktop.github.com/)
