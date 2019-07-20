@@ -40,7 +40,8 @@ Rule established by the BSMG around porting sabers (we'll assume it applies to p
 **Short Version:**
 
 **DISCLAIMER: I have not tested this so I actually don't know for sure if this is possible, if someone manages to do it I'd like to hear about it!**
-as long as there's only a mesh change, you should be able to do the same thing as for the sabers:
+
+As long as there's only a mesh change, you should be able to do the same thing as for the sabers:
 
 1. Download desired platform from [ModelSaber](https://modelsaber.com/Platforms/)
 2. Open platform file with UABE
@@ -62,8 +63,7 @@ Making your own model should be simple! just import the template I have provided
 
 ![Image!](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Platform/Template.PNG)
 
-You'll have to create a PlayersPlaceCore (the dark part of the platform) and a PlayersPlaceFrame (The glowing edge of the regular platform) I have created a P
-latform with my own name on it so I can show you what it looks like:
+You'll have to create a PlayersPlaceCore (the dark part of the platform) and a PlayersPlaceFrame (The glowing edge of the regular platform) I have created a Platform with my own name on it so I can show you what it looks like:
 
 My PlayersPlaceCore:
 
@@ -170,7 +170,7 @@ Here is what mine looked like: (As I said, it's way too big, but this image show
 
 # Add Your Platforms to the Repo
 
-I also support adding your sabers to the repository here!
+I also support adding your platform to the repository here!
 (explanation adapted from @Yuuki#0802 from BSMG, and by that I mean mostly blatantly copied)
 
 1. Make a Github account if you haven't already
@@ -189,3 +189,5 @@ I also support adding your sabers to the repository here!
 14. Go back to your forked repo and press "Create pull request" and submit!
 
 ***Once I or Yuuki accepts your pull request your platform will be added here!***
+
+**Please test your mods before submitting. Make sure they have correct JSON formatting and appear correctly on the BeatOn mod screen.**
