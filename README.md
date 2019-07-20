@@ -53,7 +53,7 @@ Rule established by the BSMG around porting sabers:
 4. Click Info
 5. Click plugins in UABE and save the meshes as .obj
 6. Open all .obj files in modeling program
-7. Orient meshes to match saber template
+7. Orient meshes to match Saber Template (new or old) from [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/Guidefiles.zip)
 8. Export to the three required .obj (Blade.obj, Handle.obj, GlowingEdges.obj)
 9. Skip to ["Getting Them Into a Mod"]()
 
