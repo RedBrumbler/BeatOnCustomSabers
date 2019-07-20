@@ -20,6 +20,7 @@
 
 - [BeatOn by Emulamer](https://github.com/emulamer/BeatOn/releases)
 - [Sidequest Discord](https://discord.me/sidequestvr)
+- [Beat Saber Modding Group Discord (BSMG)](https://discord.gg/beatsabermods)
 - [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators)
 - [Blender](https://www.blender.org/)
 - [Custom Sabers](https://github.com/RedBrumbler/BeatOnCustomSabers/tree/master/Sabers)
@@ -33,7 +34,7 @@
 - Model program of your choice (I prefer fusion360)
 - UnityAssetBundleExtractor [(UABE)](https://mega.nz/#!eRY3gAAI!wEB5cTEAxtEEbe7jIKroatUxwYtwmcUnCjAzoMBEyCs)
   *NOT my program, be careful when downloading programs from the internet!*
-- The [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/Guidefiles.zip) Contains an .stl SaberTemplate, .obj SaberTemplate and a configured beatonmod.json
+- The [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/Guide%20files%20Saber.zip) Contains an .stl SaberTemplate, .obj SaberTemplate and a configured beatonmod.json
 
 # Get Your Saber Model
 
