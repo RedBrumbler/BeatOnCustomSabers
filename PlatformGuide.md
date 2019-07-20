@@ -163,7 +163,7 @@ This completed Platform can now be loaded into the game!
 
 ![Image!](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Platform/Upload.PNG)
 
-Here is what mine looked like:
+Here is what mine looked like: (As I said, it's way too big, but this image shows how much too big it is :P)
 
 ![Image!](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Platform/in%20game.jpg)
 
