@@ -46,6 +46,9 @@ Rule established by the BSMG around porting sabers:
 >
 >We decided to do it this way because if we ever 100% automate the process of using PC sabers, there'd be no question of whether you could use a saber made for Beat Saber. Requiring explicit permission on a port would slow down ports I think and with the author still getting credit, the modelers when asked didn't seem to have an issue with it. We'll let you know if any of that changes! (just PM if any modeler has an issue with this policy)
 
+**Authors you need to ask for their permission to port their sabers:**
+ - Laugexd
+
 **Short Version:**
 
 1. Download desired saber from [ModelSaber](https://modelsaber.com/Sabers/)
