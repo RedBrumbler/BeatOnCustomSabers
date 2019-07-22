@@ -28,31 +28,6 @@
 
 # Get Your Platform Model
 
-Converting PC platforms
-------
-
-Rule established by the BSMG around porting sabers (we'll assume it applies to paltforms as well):
-
->Right now, we decided the rule for porting sabers is that the port has to 100% say the original author, but you can get a "porter" credit. If a certain author doesn't want their models ported for some reason, they can "opt out" from that ever happening. If the model changes much from how the original author intended it, the porter would need to get permission from the original creator and possible joint authorship can happen then.
->
->We decided to do it this way because if we ever 100% automate the process of using PC sabers, there'd be no question of whether you could use a saber made for Beat Saber. Requiring explicit permission on a port would slow down ports I think and with the author still getting credit, the modelers when asked didn't seem to have an issue with it. We'll let you know if any of that changes! (just PM if any modeler has an issue with this policy)
-
-**Short Version:**
-
-**DISCLAIMER: I have not tested this so I actually don't know for sure if this is possible, if someone manages to do it I'd like to hear about it!**
-
-As long as there's only a mesh change, you should be able to do the same thing as for the sabers:
-
-1. Download desired platform from [ModelSaber](https://modelsaber.com/Platforms/)
-2. Open platform file with UABE
-3. Save the data somewhere
-4. Click Info
-5. Click plugins in UABE and save the meshes as .obj
-6. Open all .obj files in modeling program
-7. Orient meshes to match Platform Template from [Guide Files Platform.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/GuideFiles%20Platform/Guide%20files%20Platform.zip)
-8. Export to the three required .obj (Blade.obj, Handle.obj, GlowingEdges.obj)
-9. Skip to ["Getting Them Into a Mod"]()
-
 ## Splitting pre-made models:
 
 [![Separating Objects in Blender](https://img.youtube.com/vi/P_C3xkVT044/0.jpg)](https://youtu.be/P_C3xkVT044 "Separating Objects in Blender")
