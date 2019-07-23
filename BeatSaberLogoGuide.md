@@ -25,7 +25,7 @@
 This part of the guide will get you through making this Logo with Photoshop, for your own modeling program you'll have to find the equivalent steps yourself
 
 To start, you'll have to create a new file, Make it 1024 pixels wide and 256 pixels tall
- 
+
 ![Image!](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20BeatSaberLogo/new%201024x256.PNG)
 
 You'll then have to select the Text tool, choose your font, pick a text size (170 works great for me) and choose the color you want the text to be
@@ -141,24 +141,23 @@ Now that you have everything you need you just need to zip it up!
 
 ![Image!](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20BeatSaberLogo/Zip%20it%20up.PNG)
 
-You might want to also add a Cover.png to show what it looks like when in the mod list, here's how: (don't forget to upload it to BeatOn first!)
-
-1. Start Beat Saber (not through BeatOn as this will cause the Quest's screencapture capabilities to not work)
-2. Head to the menu
-3. Go back to the Quest home screen and click "Sharing" at the bottom
-4. Click record or capture image
-5. **If you want to capture image:** Just look straight at the title
-6. **If you want to record:** Just go look at the title and stop recording
-7. Plug your Quest up to your PC
-8. Open SideQuest
-9. Go to the "Files" tab
-10. Head to the Oculus -> Screenshots folder
-11. Export to your title's folder
-12. If you recorded a video, export the video to a location on your pc, open the video and find a good spot to take a screen shot. Save the screenshot in your title's folder
-
-And now that it's zipped up, you can upload it onto BeatOn to test!
+You might want to also add a Cover.png to show what it looks like when in the mod list, good thing you just zipped it up! 
 
 ![Image](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20BeatSaberLogo/Upload!.PNG)
+
+1. To start, upload your mod to BeatOn
+2. Start Beat Saber (not through BeatOn as this will cause the Quest's screencapture capabilities to not work)
+3. Head to the menu
+4. Go back to the Quest home screen and click "Sharing" at the bottom
+5. Click record or capture image
+6. **If you want to capture image:** Just look straight at the title
+7. **If you want to record:** Just go look at the title and stop recording
+8. Plug your Quest up to your PC
+9. Open SideQuest
+10. Go to the "Files" tab
+11. Head to the Oculus -> Screenshots folder
+12. Export to your title's folder
+13. If you recorded a video, export the video to a location on your pc, open the video and find a good spot to take a screen shot. Save the screenshot in your title's folder
 
 Here is what mine looked like (I noticed a spelling error in Yeezys so I Fixed that during the making of this guide, that's why there's a difference in text between my photoshop images and here)
 
