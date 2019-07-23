@@ -1,0 +1,361 @@
+{
+  "id": "NoBGModV1",
+  "name": "No Background",
+  "author": "Node",
+  "description": ["Removes special background objects to increase performance."],
+  "gameVersion": "1.1.0",
+  "version": "1.0.0",
+  "platform": "Quest",
+  "category": "Other",
+  "components": [
+    {
+      "Type": "AssetsMod",
+      "InstallAction": {
+        "PreloadFiles": ["sharedassets3.assets", "sharedassets4.assets", "sharedassets6.assets", "sharedassets7.assets", "sharedassets10.assets"],
+		"Actions": [
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 1,
+				"Locator": {
+					"PathIs": {
+						"AssetFilename": "sharedassets3.assets",
+						"PathID": 57
+						}
+					},
+				"FromDataFile": "sharedassets3.assets-57.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 2,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets4.assets",
+						"PathID": 10
+						}
+					},
+				"FromDataFile": "sharedassets4.assets-10.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 3,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets6.assets",
+						"PathID": 13
+						}
+					},
+				"FromDataFile": "sharedassets6.assets-13.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 4,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets10.assets",
+						"PathID": 7
+						}
+					},
+				"FromDataFile": "sharedassets10.assets-7.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 5,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets3.assets",
+						"PathID": 15
+						}
+					},
+				"FromDataFile": "sharedassets3.assets-15.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 6,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets3.assets",
+						"PathID": 16
+						}
+					},
+				"FromDataFile": "sharedassets3.assets-16.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 7,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets3.assets",
+						"PathID": 17
+						}
+					},
+				"FromDataFile": "sharedassets3.assets-17.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 8,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets3.assets",
+						"PathID": 18
+						}
+					},
+				"FromDataFile": "sharedassets3.assets-18.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 9,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets3.assets",
+						"PathID": 19
+						}
+					},
+				"FromDataFile": "sharedassets3.assets-19.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 10,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets3.assets",
+						"PathID": 20
+						}
+					},
+				"FromDataFile": "sharedassets3.assets-20.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 11,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets6.assets",
+						"PathID": 4
+						}
+					},
+				"FromDataFile": "sharedassets6.assets-4.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 12,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets6.assets",
+						"PathID": 7
+						}
+					},
+				"FromDataFile": "sharedassets6.assets-7.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 13,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets7.assets",
+						"PathID": 5
+						}
+					},
+				"FromDataFile": "sharedassets7.assets-5.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 14,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets7.assets",
+						"PathID": 6
+						}
+					},
+				"FromDataFile": "sharedassets7.assets-6.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 15,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets7.assets",
+						"PathID": 7
+						}
+					},
+				"FromDataFile": "sharedassets7.assets-7.dat"
+			},
+			{
+				"Type": "ReplaceAsset",
+				"StepNumber": 16,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets10.assets",
+						"PathID": 2
+						}
+					},
+				"FromDataFile": "sharedassets10.assets-2.dat"
+			}
+		]
+      },
+	  "UninstallAction": {
+        "PreloadFiles": ["sharedassets3.assets", "sharedassets4.assets", "sharedassets6.assets", "sharedassets7.assets", "sharedassets10.assets"],
+		"Actions": [
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 1,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets3.assets",
+						"PathID": 57
+						}
+					}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 2,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets4.assets",
+						"PathID": 10
+						}
+				}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 3,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets6.assets",
+						"PathID": 13
+						}
+				}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 4,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets10.assets",
+						"PathID": 7
+						}
+				}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 5,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets3.assets",
+						"PathID": 15
+						}
+					}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 6,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets3.assets",
+						"PathID": 16
+						}
+					}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 7,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets3.assets",
+						"PathID": 17
+						}
+					}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 8,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets3.assets",
+						"PathID": 18
+						}
+					}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 9,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets3.assets",
+						"PathID": 19
+						}
+					}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 10,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets3.assets",
+						"PathID": 20
+						}
+					}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 11,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets6.assets",
+						"PathID": 4
+						}
+					}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 12,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets6.assets",
+						"PathID": 7
+						}
+					}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 13,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets7.assets",
+						"PathID": 5
+						}
+					}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 14,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets7.assets",
+						"PathID": 6
+						}
+					}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 15,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets7.assets",
+						"PathID": 7
+						}
+					}
+			},
+			{
+				"Type": "RestoreAsset",
+				"StepNumber": 16,
+				"Locator": { 
+					"PathIs": {
+						"AssetFilename": "sharedassets10.assets",
+						"PathID": 2
+						}
+					}
+			}
+		]
+      }
+    }
+  ]
+}
