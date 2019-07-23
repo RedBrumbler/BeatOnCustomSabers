@@ -72,7 +72,7 @@ And we save the Bottom text as LogoSaber.png:
 
 ![Image](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20BeatSaberLogo/Save%20bottom%20as%20LogoSaber.PNG)
 
-Now you need to open SaberLogo.assets with UABE:
+Now you need to open SaberLogo.assets with UABE (File -> open):
 
 ![Image!](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20BeatSaberLogo/open%20saberlogo%20with%20UABE.PNG)
 
