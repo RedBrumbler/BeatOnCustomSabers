@@ -22,9 +22,9 @@ everything should be filled in automagically
 
 ![Image!](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/AddmodtoSQ/3.png)
 
-add your download link in link url (doesn't have to be github, but I'll show you how to get it from github in the next step), (you can also add all your social medias to the mod as well in here, just select the appropriate category in the list, buit for the mod download link you want to have beatonmod)
+Make sure you have the mods category selected, and add your download link in link url (doesn't have to be github, but I'll show you how to get it from github in the next step), you can also add all your social medias to the mod as well in here, just select the appropriate category in the list, but for the mod download link you want to have beatonmod
 
-![Image!](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/AddmodtoSQ/4.png)
+![Image!](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/AddmodtoSQ/42.png)
 
 to get the mod download link, just go to github, go to your mod zip and right click download and select "copy address location", This should also work for any other file hosting place, as long as you copy the download button's address link so if you were to click that link it'll download instantly without going to the website
 
