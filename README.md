@@ -18,7 +18,7 @@
 
 # Other guides by me:
 
- - [Custom menu text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/BeatSaberLogoGuide.md)
+ - [Custom menu text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/BeatSaberLogoGuide.md) (The neon sign that says 'beat saber' by default in the main menu)
  - [Custom platforms](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/PlatformGuide.md) (The thing you are standing on, not the entire stage)
  - [Adding your mods to Sidequest](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/AddmodtoSQ.md)
 
