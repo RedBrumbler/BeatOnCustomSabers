@@ -4,7 +4,7 @@
 
 **CoEdited by Yuuki#0802**
 
-[Back to main guide](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/README.md)
+[click here to go back to the main guide](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/README.md)
 
 
 
