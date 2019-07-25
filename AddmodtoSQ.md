@@ -4,6 +4,8 @@
 
 **CoEdited by Yuuki#0802**
 
+[click here to go back to the main guide](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/README.md)
+
 
 
 you'll have to start by making an account here:

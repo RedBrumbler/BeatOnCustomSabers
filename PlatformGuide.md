@@ -6,6 +6,8 @@
 
 #### These platforms are not the custom stages! this is just the platform you are standing on when playing! keep that in mind
 
+[Click here to go back to the main guide](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/README.md)
+
 # Useful Links
 
 - [BeatOn by Emulamer](https://github.com/emulamer/BeatOn/releases)
