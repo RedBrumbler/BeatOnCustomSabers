@@ -4,6 +4,8 @@
 
 **CoEdited by Yuuki#0802**
 
+[Click here to go back to the main guide](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/README.md)
+
 # Useful Links
 
 - [BeatOn by Emulamer](https://github.com/emulamer/BeatOn/releases)
