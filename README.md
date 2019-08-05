@@ -4,8 +4,6 @@
 
 **CoEdited by Yuuki#0802**
 
-(Rugtveit has withdrawn from the guidemaking so their name has been taken out)
-
 #### DISCLAIMER: Making custom sabers / getting custom sabers to work may require you to reset your assets (thus making you sort your songs again) multiple times, so losing all your song data is not uncommon, I am not responsible for you needing to reset your assets so don't complain about it to me
 
 # Table of Contents
