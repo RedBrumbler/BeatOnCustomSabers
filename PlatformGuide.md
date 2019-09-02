@@ -24,8 +24,8 @@
 - Unity version [2018.3.10f1](https://unity3d.com/get-unity/download?thank-you=update&download_nid=61246&os=Win)
 - This [unity project](https://bs.assistant.moe/Sabers/resources/CustomSaberUnityProject.zip). Source: [here](https://bs.assistant.moe/Sabers/)
 - Model program of your choice (I prefer fusion360)
-- UnityAssetBundleExtractor [(UABE)](https://mega.nz/#!eRY3gAAI!wEB5cTEAxtEEbe7jIKroatUxwYtwmcUnCjAzoMBEyCs)
-  *NOT my program, be careful when downloading programs from the internet!*
+- UnityAssetBundleExtractor [(UABE)](https://mega.nz/#!ScgiWYRJ!5b_9g2B4eOZaAA3JAV2htVRamNYuxQLrWyMbSXv-k1o)
+  *NOT my program, be careful when downloading programs from the internet!* Source: [here](https://7daystodie.com/forums/showthread.php?22675-Unity-Assets-Bundle-Extractor)
 - The [Guide Files Platform.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/Guide%20files%20Saber.zip) Contains an .stl PlatformTemplate, .obj PlatformTemplate and a configured beatonmod.json
 
 # Get Your Platform Model
