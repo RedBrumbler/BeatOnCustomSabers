@@ -33,7 +33,7 @@
 
 # Required Programs and Files for Making a Saber:
 
-- Unity version [2018.3.10f1](https://unity3d.com/get-unity/download?thank-you=update&download_nid=61246&os=Win) or higher (any lower and BeatSaber will crash)
+- Unity version [2018.3.10f1](https://unity3d.com/get-unity/download?thank-you=update&download_nid=61246&os=Win)(any lower or higher and BeatSaber will crash)
 - This [unity project](https://bs.assistant.moe/Sabers/resources/CustomSaberUnityProject.zip). Source: [here](https://bs.assistant.moe/Sabers/)
 - Model program of your choice (I prefer fusion360)
 - UnityAssetBundleExtractor [(UABE)](https://mega.nz/#!ScgiWYRJ!5b_9g2B4eOZaAA3JAV2htVRamNYuxQLrWyMbSXv-k1o)
