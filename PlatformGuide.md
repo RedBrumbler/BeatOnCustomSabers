@@ -26,7 +26,7 @@
 - Model program of your choice (I prefer fusion360)
 - UnityAssetBundleExtractor [(UABE)](https://mega.nz/#!ScgiWYRJ!5b_9g2B4eOZaAA3JAV2htVRamNYuxQLrWyMbSXv-k1o)
   *NOT my program, be careful when downloading programs from the internet!* Source: [here](https://7daystodie.com/forums/showthread.php?22675-Unity-Assets-Bundle-Extractor)
-- The [Guide Files Platform.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/Guide%20files%20Saber.zip) Contains an .stl PlatformTemplate, .obj PlatformTemplate and a configured beatonmod.json
+- The [Guide Files Platform.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/GuideFiles%20Platform/Guide%20files%20Platform.zip) Contains an .stl PlatformTemplate, .obj PlatformTemplate and a configured beatonmod.json
 
 # Get Your Platform Model
 
