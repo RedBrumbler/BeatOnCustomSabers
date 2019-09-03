@@ -10,6 +10,28 @@ Beat Saber 1.3.0p1
 ------
 With the new Beat Saber update some changes have to happen to mods to make them work again,. if you made any of them with my guide files you'll find the updated guide files in the repo where they have always been! I hope to see the mods be updated soon!
 
+If you are at home within asset replacement, you'll be able to use this information to update your mods yourself:
+
+>Sabers - old will install, but can't uninstall -> need updated sharedassets file in json (12 -> 13)
+
+>Notes - old won't install as far as I can tell -> need updated sharedassets file in json  (13 -> 14)
+
+>Platforms - no changes
+
+>Trails - old won't install as far as I can tell -> need updated sharedassets file in json (12 -> 13)
+
+>Hitsounds - no changes
+
+>Menusounds - no changes
+
+>Menumodels - no changes
+
+>Menutitles - no changes
+
+>Hook mods - no idea
+
+Don't forget to change the gameversion in your beatonmod.json!
+
 # Table of Contents
 
 1. [Useful Links](#useful-links)
