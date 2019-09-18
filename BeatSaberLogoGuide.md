@@ -18,8 +18,8 @@
 # Required Programs and Files for Making a Saber:
 
 - Image editing program of your choice (I prefer Photoshop, and will be using that in this Guide)
-- UnityAssetBundleExtractor [(UABE)](https://mega.nz/#!eRY3gAAI!wEB5cTEAxtEEbe7jIKroatUxwYtwmcUnCjAzoMBEyCs)
-  *NOT my program, be careful when downloading programs from the internet!*
+- UnityAssetBundleExtractor [(UABE)](https://mega.nz/#!ScgiWYRJ!5b_9g2B4eOZaAA3JAV2htVRamNYuxQLrWyMbSXv-k1o)
+  *NOT my program, be careful when downloading programs from the internet!* Source: [here](https://7daystodie.com/forums/showthread.php?22675-Unity-Assets-Bundle-Extractor)
 - The [GuideFiles BeatSaberLogo.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/GuideFiles%20BeatSaberLogo/GuideFiles%20BeatSaberLogo.zip) Contains a LogoE.dat, SaberLogo.assets and a configured beatonmod.json
 - A font of your choice, The font beat saber uses is [Neon Tubes](https://medialoot.com/item/neon-tubes-font/) but since youhave to pay for it you can also use [the Beon font](https://www.1001fonts.com/beon-font.html) which is free.
 

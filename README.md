@@ -6,6 +6,32 @@
 
 #### DISCLAIMER: Making custom sabers / getting custom sabers to work may require you to reset your assets (thus making you sort your songs again) multiple times, so losing all your song data is not uncommon, I am not responsible for you needing to reset your assets so don't complain about it to me
 
+Beat Saber 1.3.0p1
+------
+With the new Beat Saber update some changes have to happen to mods to make them work again,. if you made any of them with my guide files you'll find the updated guide files in the repo where they have always been! I hope to see the mods be updated soon!
+
+If you are at home within asset replacement, you'll be able to use this information to update your mods yourself:
+
+>Sabers - old will install, but can't uninstall -> need updated sharedassets file in json (12 -> 13)
+
+>Notes - old won't install as far as I can tell -> need updated sharedassets file in json  (13 -> 14)
+
+>Platforms - no changes
+
+>Trails - old won't install as far as I can tell -> need updated sharedassets file in json (12 -> 13)
+
+>Hitsounds - no changes
+
+>Menusounds - no changes
+
+>Menumodels - no changes
+
+>Menutitles - no changes
+
+>Hook mods - no idea
+
+Don't forget to change the gameversion in your beatonmod.json!
+
 # Table of Contents
 
 1. [Useful Links](#useful-links)
@@ -33,11 +59,11 @@
 
 # Required Programs and Files for Making a Saber:
 
-- Unity version [2018.3.10f1](https://unity3d.com/get-unity/download?thank-you=update&download_nid=61246&os=Win) or higher (any lower and BeatSaber will crash)
+- Unity version [2018.3.10f1](https://unity3d.com/get-unity/download?thank-you=update&download_nid=61246&os=Win)(any lower or higher and BeatSaber will crash)
 - This [unity project](https://bs.assistant.moe/Sabers/resources/CustomSaberUnityProject.zip). Source: [here](https://bs.assistant.moe/Sabers/)
 - Model program of your choice (I prefer fusion360)
-- UnityAssetBundleExtractor [(UABE)](https://mega.nz/#!eRY3gAAI!wEB5cTEAxtEEbe7jIKroatUxwYtwmcUnCjAzoMBEyCs)
-  *NOT my program, be careful when downloading programs from the internet!*
+- UnityAssetBundleExtractor [(UABE)](https://mega.nz/#!ScgiWYRJ!5b_9g2B4eOZaAA3JAV2htVRamNYuxQLrWyMbSXv-k1o)
+  *NOT my program, be careful when downloading programs from the internet!* Source: [here](https://7daystodie.com/forums/showthread.php?22675-Unity-Assets-Bundle-Extractor)
 - The [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/Guide%20files%20Saber.zip) Contains an .stl SaberTemplate, .obj SaberTemplate and a configured beatonmod.json
 
 # Get Your Saber Model
