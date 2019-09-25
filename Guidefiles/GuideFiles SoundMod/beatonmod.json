@@ -6,7 +6,8 @@
       "Type": "AssetsMod",
       "InstallAction": {
         "PreloadFiles": [
-          "sharedassets13.assets"
+          "sharedassets13.assets",
+		  "sharedassets2.assets"
         ],
         "Actions": [
           {
@@ -263,7 +264,8 @@
       },
       "UninstallAction": {
         "PreloadFiles": [
-          "sharedassets13.assets"
+          "sharedassets13.assets",
+		  "sharedassets2.assets"
         ],
         "Actions": [
           {
