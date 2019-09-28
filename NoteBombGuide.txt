@@ -45,16 +45,15 @@ For example, this bomb I made is based on a retro feel:
 
 once you have your model
 
-![alt text](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Bomb/0.1%20model%20preview.PNG)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/shinyaccent.png)
 
 you want to create a folder you will remember
 
-![alt text](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Bomb/0.2%20create%20memorable%20folder.PNG)
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/Handle.png)
 
 Next export the model to this folder as bomb.obj
 
-![alt text](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Bomb/0.3%20export%20to%20folder%20as%20bomb.obj'.PNG)
-
+![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/Sword.png)
 Converting Your objects into a mod
 ====== 
 After getting your .obj file, you’ll be able to make them into a mod compatible with Beat Saber for Quest
@@ -133,7 +132,7 @@ I recommend to only change the id, name, author, description and version numbers
   "gameVersion": "1.3.0p2",
   "version": "1.0.0.0",
   "platform": "Quest",
-  "category": "Saber",
+  "category": "Other",
   "coverImageFilename": "Cover.png",
   "components":
 ```
@@ -142,13 +141,13 @@ for my sword I changed it to this:
 
 ```
 "id": "retrobombv1", 
-  "name": "Connie's Sword V1",
-  "author": "RedBrumbler", 
+  "name": "Retro Bomb innovation",
+  "author": "Futuremappermydud", 
   "description": ["Retro Bomb innovation"], 
-  "gameVersion": "1.1.0",
-  "version": "1.0.1.0", 
+  "gameVersion": "1.3.0p2",
+  "version": "1.0.0.0", 
   "platform": "Quest",
-  "category": "Saber",
+  "category": "Other",
   "coverImageFilename": 
   "components":
 ```
