@@ -41,7 +41,7 @@ I will not make this guide on how to use model software to do so, just how to ex
 
 For example, this bomb I made is based on a retro feel:
 
-![alt text]()
+![alt text](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Bomb/0.01%20retro%20preview.PNG)
 
 once you have your model
 
