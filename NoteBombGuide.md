@@ -37,7 +37,7 @@ Making your own model:
 
 You can also make your own model!
 
-I will not make this guide on how to use model software to do so, just how to export the files from your model program to something usable for making the sabers, make sure to have the different parts split up to make sure you can give them the different textures/shaders.
+I will not make this guide on how to use model software to do so, just how to export the file from your model program to something usable for making the bombs.saber
 
 For example, this bomb I made is based on a retro feel: This is also what it should look like when we are done
 
@@ -96,7 +96,7 @@ click the mesh default and click export raw (!IMPORTANT! NAME THE .dat bomb.dat 
 
 ![alt text](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Bomb/1.0%20uabe%20screen.PNG)
 
-Put this raw .dat file in a new folder that is the name of your saber (we will be converting this folder to .zip for easy uploading later)
+Put this raw .dat file in a new folder that is the name of your bomb (we will be converting this folder to .zip for easy uploading later)
 
 ![alt text](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Bomb/1.1%20bomb.dat%20stuf.PNG)
 
@@ -104,9 +104,9 @@ Now to make the actual mod, if you haven’t already download the [GuideFilesBom
 
 
 
-### Taking a Picture of Your Saber
+### Taking a Picture of Your bomb
 
-#### A new update to Beaton (0.9.8) Brought us the possibility of adding cover images to our mods, it doesn't matter too much what the image is (make it recognizable! for sabers I recommend using a picture of the saber, look at my saber pictures/mod Cover images for a way to do this!) just make sure the image is 150 (w) x 200 (h) and is named "Cover.png" that way it will show up in BeatOn
+#### A new update to Beaton (0.9.8) Brought us the possibility of adding cover images to our mods, it doesn't matter too much what the image is (make it recognizable! for bombs I recommend using a picture of the bomb, look at my bomb pictures/mod Cover image for a way to do this!) just make sure the image is 150 (w) x 200 (h) and is named "Cover.png" that way it will show up in BeatOn
 
 Before starting, you will need to zip your bomb up and drag it onto BeatOn's Upload screen. Make sure it is installed.
 
