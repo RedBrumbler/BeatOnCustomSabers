@@ -39,7 +39,7 @@ You can also make your own model!
 
 I will not make this guide on how to use model software to do so, just how to export the files from your model program to something usable for making the sabers, make sure to have the different parts split up to make sure you can give them the different textures/shaders.
 
-For example, this bomb I made is based on a retro feel:
+For example, this bomb I made is based on a retro feel: This is also what it should look like when we are done
 
 ![alt text](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Bomb/0.01%20retro%20preview.PNG)
 
