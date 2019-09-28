@@ -69,19 +69,19 @@ Open that unity project and delete camera and light so we can begin
 
 Move in the .obj file
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles2.png)
+![alt text](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Bomb/0.6%20insert%20obj.PNG)
 
 So we can build the bomb (AKA, compile [i think]), move them into the left field of unity
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfilesmissing.png)
+![alt text](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Bomb/0.7%20move%20to%20left%20field.PNG)
 
 Raw Unity Mesh Files
 ------
 Now that your bomb is in unity, it’s time to convert them into raw unity mesh files. To start off with that, you’ll need to build the scene, press Ctrl + shift + b to open build settings, and build the scene for windows, mac and linux
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles3.png)
+![alt text](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Bomb/0.8%20build%20scene.PNG)
 
-Let it build in a folder of your choice (I would create a new folder called "Build") and open UABE
+Let it build in a folder of your choice (I would create a new folder called "BombBuild") and open UABE
 
 ![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfilesmissing2.png)
 
