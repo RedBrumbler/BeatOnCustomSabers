@@ -59,12 +59,13 @@ Converting Your objects into a mod
 ====== 
 After getting your .obj file, you’ll be able to make them into a mod compatible with Beat Saber for Quest
 
-You’ll start by installing unity version 2018.3/4.10f1 and create a new project
+You’ll start by installing unity version 2018.3/4.10f1 and create a new project(this may take a second)
 
+![alt text](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Bomb/0.4%20create%20unity%20project.PNG)
 
-Open that unity project so we can begin
+Open that unity project and delete camera and light so we can begin
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles1.png)
+![alt text](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Bomb/0.5%20delete%20bad%20stuff.PNG)
 
 Move in the .obj file
 
