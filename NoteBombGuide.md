@@ -13,7 +13,7 @@
 5. [Add Your bombs to the Repo](#add-your-bombs-to-the-repo)
 
 # Other guides by me:
-# Useful Links
+# Useful Links and stuff
 
 - [BeatOn by Emulamer](https://github.com/emulamer/BeatOn/releases)
 - [Sidequest Discord](https://discord.me/sidequestvr)
