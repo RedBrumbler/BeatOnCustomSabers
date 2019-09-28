@@ -1,8 +1,8 @@
-# Guide to Making Custom Sabers for BeatOn
+# Guide to Making Custom Bombs for BeatOn
 
 ###  iplay games!#8247‘s (or Futuremappermydud) Guide to making custom bombs for the BeatOn Asset replacement mod
 
-#### DISCLAIMER: Making custom bombs / getting custom bombs to work may require you to reset your assets (thus making you sort your songs again) multiple times, so losing all your song data is not uncommon, I am not responsible for you needing to reset your assets so don't complain about it to me
+#### DISCLAIMER: Making custom bombs / getting custom bombs to work may require you to reset your assets (thus making you sort your songs again) multiple times, so losing all your song data is not uncommon, I am not responsible for you needing to reset your assets so don't complain about it to me or else
 
 # Table of Contents
 
