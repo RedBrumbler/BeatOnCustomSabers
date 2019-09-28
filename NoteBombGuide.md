@@ -89,18 +89,18 @@ Once in UABE, go to file -> open and navigate to the folder you built the scene 
 
 Inside the build folder should be a folder called <unityprojectname>_data, go into that folder and open sharedassets0.assets with UABE
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles4.png)
+![alt text](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Bomb/0.9%20open%20shared%20assets%20with%20uabe.PNG)
 
 You’ll get this screen, and your model will have a name, lol the name is default btw
 click the mesh default and click export raw (!IMPORTANT! NAME THE .dat bomb.dat NO CAPSSSSSS HISSSSSSSS)
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles5.png)
+![alt text](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Bomb/1.0%20uabe%20screen.PNG)
 
 Put this raw .dat file in a new folder that is the name of your saber (we will be converting this folder to .zip for easy uploading later)
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles6.png)
+![alt text](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFiles%20Bomb/1.1%20bomb.dat%20stuf.PNG)
 
-Now to make the actual mod, if you haven’t already download the [Guide Files.zip](https://github.com/RedBrumbler/BeatOnCustomSabers/raw/master/Guidefiles/Guidefiles.zip) and open the beatonmod.json in a text editor (would not recommend regular notepad, something like notepad++ works way better)
+Now to make the actual mod, if you haven’t already download the [GuideFilesBomb.zip](https://github.com/Futuremappermydud/BeatOnCustomSabers/blob/master/Guidefiles/GuideFilesBomb.zip) and open the beatonmod.json in a text editor (would not recommend regular notepad, something like notepad++ works way better)
 
 
 
@@ -108,20 +108,19 @@ Now to make the actual mod, if you haven’t already download the [Guide Files.z
 
 #### A new update to Beaton (0.9.8) Brought us the possibility of adding cover images to our mods, it doesn't matter too much what the image is (make it recognizable! for sabers I recommend using a picture of the saber, look at my saber pictures/mod Cover images for a way to do this!) just make sure the image is 150 (w) x 200 (h) and is named "Cover.png" that way it will show up in BeatOn
 
-Before starting, you will need to zip your saber up and drag it onto BeatOn's Upload screen. Make sure your saber is installed.
+Before starting, you will need to zip your bomb up and drag it onto BeatOn's Upload screen. Make sure it is installed.
 
 1. Start Beat Saber (not through BeatOn as this will cause the Quest's screencapture capabilities to not work)
 2. Head to the tutorial
 3. Go back to the Quest home screen and click "Sharing" at the bottom
-4. Click record or capture image
-5. **If you want to capture image:** Hold your left saber diagonally across your left eye (close your right eye if necessary)
-6. **If you want to record:** Hold your saber diagonally and stop the recording. 
+4. Click record
+5. show a clip of of the bomb in use
 7. Plug your Quest up to your PC
 8. Open SideQuest
 9. Go to the "Files" tab
 10. Head to the Oculus -> Screenshots folder
-11. Export to your saber's folder
-12. If you recorded a video, export the video to a location on your pc, open the video and find a good spot to take a screen shot. Save the screenshot in your saber's folder
+11. Export to your bombs's folder
+12. export the video to a location on your pc, open the video and find a good spot to take a screen shot. Save the screenshot in your bomb's folder
 
 At the top(or bottom) of the json you’ll see this info, now all you have to do is input your own info in there and name things correctly.
 I recommend to only change the id, name, author, description and version numbers
@@ -132,9 +131,9 @@ I recommend to only change the id, name, author, description and version numbers
   "author": "YourName",
   "description": ["Mod Description"],
   "gameVersion": "1.3.0p2",
-  "version": "1.0.0.0",
+  "version": "v1.0",
   "platform": "Quest",
-  "category": "Saber",
+  "category": "Other",
   "coverImageFilename": "Cover.png",
   "components":
 ```
@@ -143,13 +142,13 @@ for my sword I changed it to this:
 
 ```
 "id": "retrobombv1", 
-  "name": "Connie's Sword V1",
-  "author": "RedBrumbler", 
+  "name": "Retro Bomb",
+  "author": "Futuremappermydud", 
   "description": ["Retro Bomb innovation"], 
-  "gameVersion": "1.1.0",
-  "version": "1.0.1.0", 
+  "gameVersion": "1.3.0p2",
+  "version": "v1.0", 
   "platform": "Quest",
-  "category": "Saber",
+  "category": "Other",
   "coverImageFilename": 
   "components":
 ```
@@ -165,17 +164,15 @@ Now that you have all your files ready you can bundle them into a zip file (winr
 
 Now you should be ready to upload to BeatOn!
 
-![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles9.png)
-
 If you get "invalid mod", you likely are missing an argument in the info part I just listed, make sure all of it is there!
 
 If it doesn’t work you might have to reset your assets (will lose all loaded songs, be careful!) but pressing reload songs will load back most of them, if it says invalid mod file you might miss some files or made an incomplete json
 
-If sabers (even confirmed working ones) don't show up at all then you might even need to completely reinstall beat saber
+If bombs (even confirmed working ones) don't show up at all then you might even need to completely reinstall beat saber
 
 # Add Your Bombs to the Repo
 
-I also support adding your bombs to the repository here!
+RedBrumbler also supports adding your own bombs to the repository here!
 (explanation adapted from @Yuuki#0802 from BSMG, and by that RedBrumbler means mostly blatantly copied)
 
 1. Make a Github account if you haven't already
