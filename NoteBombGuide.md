@@ -87,12 +87,12 @@ Let it build in a folder of your choice (I would create a new folder called "Bom
 
 Once in UABE, go to file -> open and navigate to the folder you built the scene in.
 
-Inside the build folder should be a folder called customSabers_data, go into that folder and open sharedassets0.assets with UABE
+Inside the build folder should be a folder called <unityprojectname>_data, go into that folder and open sharedassets0.assets with UABE
 
 ![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles4.png)
 
 You’ll get this screen, and your model will have a name, lol the name is default btw
-click the mesh default and click export raw
+click the mesh default and click export raw (!IMPORTANT! NAME THE .dat bomb.dat NO CAPSSSSSS HISSSSSSSS)
 
 ![alt text](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/modfiles5.png)
 
