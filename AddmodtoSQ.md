@@ -1,3 +1,5 @@
+<!---**These guides are RedBrumbler's guides**--->
+
 # Guide to adding mods to SideQuest
 
 ### @RedBrumbler#6295 ‘s (or u/RedBrumbler) Guide to adding mods to Sidequest
@@ -55,3 +57,5 @@ when it's up you even get cool stats and stuff
 at the bottom is a share URL, if you click refresh and then copy you get a url that shows the mod info in the embed
 
 ![Image!](https://github.com/RedBrumbler/BeatOnCustomSabers/blob/master/Guidefiles/AddmodtoSQ/10.png)
+
+<!---**These guides are RedBrumbler's guides**--->
