@@ -169,4 +169,4 @@ I also support adding your platform to the repository here!
 
 **Please test your mods before submitting. Make sure they have correct JSON formatting and appear correctly on the BeatOn mod screen.**
 
-**These guides are mine, please do not share only parts of it with others, refer them to this guide instead**
+<!---**These guides are mine, please do not share only parts of it with others, refer them to this guide instead**--->
