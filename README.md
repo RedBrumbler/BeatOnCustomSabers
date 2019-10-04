@@ -6,6 +6,8 @@
 
 **CoEdited by Yuuki#0802**
 
+# At this point in time BeatOn is discontinued, only if you have beat saber version 1.3.0p2 or earlier will you be able to have mods! 
+
 #### DISCLAIMER: Making custom sabers / getting custom sabers to work may require you to reset your assets (thus making you sort your songs again) multiple times, so losing all your song data is not uncommon, I am not responsible for you needing to reset your assets so don't complain about it to me
 
 Beat Saber 1.3.0p2
